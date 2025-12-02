@@ -20,3 +20,4 @@ Common Lisp, отримати практичні навички роботи з�
 
 ## Завдання за варіантом
 <b>Варіант 8</b><br/>
+<img width="582" height="186" alt="image" src="https://github.com/user-attachments/assets/83c8b8ba-0f4f-47f9-9c02-4306590f6a6d" />
