@@ -25,6 +25,61 @@ CL-USER> (setq my-list (list 'VAR 8 (cons 'DOMUSHCHI nil) nil 'KV23))
 (VAR 8 (DOMUSHCHI) NIL KV23)
 CL-USER> 
 ```
+
+### Пункт 2
+```lisp
+CL-USER> (car my-list)
+VAR 
+```
+
+### Пункт 3
+```lisp
+CL-USER> (cdr my-list)
+(8 (DOMUSHCHI) NIL KV23) 
+```
+
+### Пункт 4
+```lisp
+CL-USER> (third my-list)
+(DOMUSHCHI)
+```
+
+### Пункт 5
+```lisp
+CL-USER> (car (last my-list))
+KV23 
+```
+
+### Пункт 6
+```lisp
+CL-USER> my-list
+(VAR 8 (DOMUSHCHI) NIL KV23)
+CL-USER> (atom (first my-list))
+T
+CL-USER> (atom (third my-list))
+NIL
+CL-USER> (listp (fourth my-list))
+T
+CL-USER> (listp (third my-list))
+T
+```
+
+### Пункт 7
+```lisp
+CL-USER> (numberp (second my-list))
+T
+CL-USER> (symbolp (fifth my-list))
+T
+CL-USER> (null (fourth my-list))
+T
+```
+
+### Пункт 8
+```lisp
+CL-USER> (append my-list (third my-list))
+(VAR 8 (DOMUSHCHI) NIL KV23 DOMUSHCHI)
+```
+
 ## Завдання за варіантом
 <p align="center"><b>Варіант 8</b></p>
 <p align="center">
