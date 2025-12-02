@@ -23,11 +23,12 @@ Common Lisp, отримати практичні навички роботи з�
 <p align="center">
 <img src="lab1_var8.jpg">
 </p>
-````````lisp
+
+```lisp
 CL-USER> (defvar variant-list nil)
 VARIANT-LIST
 CL-USER> (setq sub-part (list 6 'D)
                variant-list (list (list 4 sub-part 5) 'E 'F sub-part))
 ((4 (6 D) 5) E F (6 D))
 CL-USER> 
-````````
+```
