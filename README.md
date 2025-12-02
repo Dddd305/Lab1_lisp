@@ -17,13 +17,20 @@ Common Lisp, отримати практичні навички роботи з�
 
 ## Загальне завдання
 
+###Пункт 1
+```lisp
+CL-USER> (defvar my-list nil)
+MY-LIST
+CL-USER> (setq my-list (list 'VAR 8 (cons 'DOMUSHCHI nil) nil 'KV23))
+(VAR 8 (DOMUSHCHI) NIL KV23)
+CL-USER> 
 
 ## Завдання за варіантом
 <p align="center"><b>Варіант 8</b></p>
 <p align="center">
 <img src="lab1_var8.jpg">
 </p>
-
+```
 ---
 Список: ((4 (6 D) 5) E F (6 D))
 
