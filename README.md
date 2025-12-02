@@ -90,10 +90,14 @@ CL-USER> (append my-list (third my-list))
 Список: ((4 (6 D) 5) E F (6 D))
 
 ```lisp
-CL-USER> (defvar variant-list nil)
-VARIANT-LIST
+CL-USER> (defvar sub-part nil)
+SUB-PART
+CL-USER> (defvar 8variant-list nil)
+8VARIANT-LIST
 CL-USER> (setq sub-part (list 6 'D)
-               variant-list (list (list 4 sub-part 5) 'E 'F sub-part))
+               8variant-list (list (list 4 sub-part 5) 'E 'F sub-part))
+((4 (6 D) 5) E F (6 D))
+CL-USER> 8variant-list
 ((4 (6 D) 5) E F (6 D))
 CL-USER> 
 ```
