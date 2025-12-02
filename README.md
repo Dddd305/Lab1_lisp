@@ -30,3 +30,4 @@ Common Lisp, отримати практичні навички роботи з�
 ;;                variant-list (list (list 4 sub-part 5) 'E 'F sub-part))
 ;; ((4 (6 D) 5) E F (6 D))
 ;; CL-USER> 
+```
